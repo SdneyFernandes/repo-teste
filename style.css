@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/pexels-cat-crawford-1488401.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+header{
+   display: flex;
+   justify-content: space-around;
+   height: 70px;
+   background-color: #dad7e7;
+   opacity: 80%;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+}
+
+section:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+section:nth-of-type(1) .Busca{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Busca p{
+    width: 220px;
+    padding-left: 15px;
+   font-size: 14px;
+   margin-top: 10px; 
+}
+
+.Busca a{
+ text-decoration: none;
+ color: #18334e;
+    
+}
+
+.Busca h3{
+   
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:black;
+}
+
+.Busca span{
+    height: 50px; 
+    margin-right: 20px;
+    background-color: #fff;
+}
+
+.Busca i img{
+    width: 25px;
+    height: 25px;
+}
+
+.input-group{
+   align-items: center;
+   justify-content: center;
+    width: 950px;
+    height: 110px;
+    padding-left: 35px;
+    background-color:#fabda4;
+    border-radius: 7px;
+}
+
+.input-group input{
+   height: 50px;
+   border: none;
+   border-radius: 4px;
+   padding-left: 17px;
+
+}
+
+#local{
+   width: 300px;
+   
+}
+
+.logo{
+    
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    font-size: 50px;
+    margin:20px 0 60px 0;
+
+}
+
+.logo h1{
+    font-size: 70px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: #18334e;  
+}
+
+.logo p{
+    font-size: 50px;
+    margin-top: -20px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: #18334e;
+}
+
+.logo img{
+    width: 80px;
+    margin-top: -40px;
+}
+
+
+section:nth-of-type(2){
+   display: flex;
+   padding-top: 50px;
+   justify-content: center;
+}
+
+section:nth-of-type(2) p{
+    font-size: 14px;
+    color: #fff;
+}
+
+section:nth-of-type(2) h3{
+    font-size: 16px;
+    color:white;
+}
+
+
+section:nth-of-type(2) .card{
+    width: 290px;
+    border-radius: 10px;
+    padding: 15px 15px 35px 15px;
+    background-color: transparent;
+    opacity: 100%;
+    transition: none;
+    
+}
+
+section:nth-of-type(2) .card-deck img{
+    width: 60px;
+    margin-bottom: 20px;
+
+}
+
+.card-deck{
+   margin: 0 auto;
+   
+}
+
+.card p{
+    font-size: 15px;
+}
+
+/*secção card de imagens dos carros*/
+
+.card{
+    border: none;
+    background-color: #fabda4 ;
+    opacity: 65%;
+    border-radius:4px ;
+    align-items: center;
+    text-align: center;
+    width: 20px;
+    padding-top: 30px;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.card:hover{
+    transform: scale(1.15,1.15);
+}
+
+
+section:nth-of-type(4){
+    width: 90vw;
+    height: 220px;
+    margin-left: 60px;
+    display: flex;
+    margin-top: 60px;
+}
+
+section:nth-of-type(4) h3{
+    color: white;
+    font-size: 17px;
+
+}
+section:nth-of-type(4) .App{
+    padding-left: 60px;
+  
+}
+
+section:nth-of-type(4) .App p{
+    margin: 20px 0 -10px 0;
+    color: white;
+}
+
+
+
+section:nth-of-type(4) img{
+    width: 60px;
+    margin-top: 20px;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+section:nth-of-type(4) img:hover{
+    transform: scale(1.25,1.25);
+
+}
+
+
+section:nth-of-type(5) footer{
+    margin: 110px 0 80px 0; 
+}
+
+footer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding-top:90px;
+}
+
+.Int{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 20vh;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    
+}
+
+.Int ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+
+.Int h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white
+}
+
+.Int a{
+    color: white;
+    text-decoration: none;
+}
+
+section:nth-of-type(6) .d-flex{
+    height: 20px;
+}
+
+.container{
+    width: 90%;
+    height: 80vh;
+    color: #fff; 
+}
+
+.col-md-7{
+    padding: 10px;
+}
+.col-md-5{
+    padding: 20px;
+    color: white;
+}
+
+.form-control {
+    height: 40px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid ;
+}
+
+.d-flex p{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+
+
+@media (max-width:820px) {
+
+   /*Estilização responsiva da barra de busca e input*/
+    .Busca p{
+        display: none;  
+    }
+
+   .App{
+    display: none;
+   }
+
+   .sobre{
+    margin-left: 50px;
+    
+   }
+        
+    .Busca i img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .input-group{
+        width: 700px;
+        height: 80px;
+        padding-right: 35px;
+    }
+    
+    #local{
+        width: 300px;
+    }
+
+
+    /*Estilização responsiva da secção card-vantagens*/
+    section:nth-of-type(2) .card p{
+       width: 150px;
+          
+    }
+
+   /*Estilização responsiva da secção footer*/
+   .Int{
+    margin-bottom: -70px;
+    margin-left: 110px;
+    }
+
+    .container{
+    height: 90vh;
+    }  
+}
+
+
+
+@media (max-width:390px) {
+
+      
+      .logo h1{
+          font-size: 60px; 
+      }
+      
+      .logo p{
+          font-size: 30px;
+      }
+      
+      .logo img{
+          width: 60px;
+          margin-top: -15px;
+      }
+      
+      .Busca h3{
+        font-size: 17px; 
+      }
+
+
+    section:nth-of-type(1) .Busca{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+    .Busca span{
+       display: none;
+    }
+
+
+    .input-group{
+        width: 320px;
+        height: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        opacity: 80%;
+        border-radius: 6px;
+    }
+    
+    .input-group input{
+       height: 35px;
+       border: none;
+       border-radius: 7px;
+    }
+
+    #hora{
+        margin-left: 10px;
+    }
+
+    #local{
+        margin-bottom: -20px;
+    }
+     
+     section:nth-of-type(2) .card-deck{
+         display: flex;
+         align-items: center;
+     }
+     
+     section:nth-of-type(2) p{
+         font-size: 12px;
+        margin-left:35px; 
+     }
+     
+     section:nth-of-type(2) h3{
+         font-size: 14px;
+     }
+     
+     
+     section:nth-of-type(2) .card{
+         opacity: 100%;
+     }
+
+    section:nth-of-type(2) .card-deck img{
+        width: 45px;
+        margin:-30px 0 -5px 0 ;
+    }
+    
+    
+    .card-deck{
+        align-items: center;
+     }
+     
+     .card p{
+         font-size: 13px;
+     }
+     
+     .card{
+         width: 250px;
+     }
+
+     .card h5{
+        font-size: 14px;
+        color: white;
+     }
+
+     .card img{
+        width: 180px;
+     }
+     
+     .card a{
+         text-decoration: none;
+         color: black;
+     }
+    
+    
+     section:nth-of-type(4){
+        width: 80vw;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 40px 70px;
+    }
+
+    .container{
+        margin-top: -120px;
+    }
+
+   .sobre{
+    display: none;
+   }
+    
+   .App{
+    display:block;
+   }
+    
+    section:nth-of-type(4) .App h3{
+    font-size: 15px;
+    margin-bottom: -5px;
+    }
+    
+    section:nth-of-type(4) .App {
+        width: 300px;
+        margin-left: -50px;
+        margin-top: 30px;
+    }
+    
+    
+    section:nth-of-type(4) .App img{
+        width: 35px;
+    }
+
+
+    .Int{
+        display: none;
+    }
+
+    .col-md-5{
+       display: none;
+    }
+
+}
